@@ -3,3 +3,55 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #b9b6a7;
+}
+.card {
+  width: 300px;
+  margin: 50px auto;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+}
+.card:hover {
+  box-shadow: 0 0 15px #0e75c9;
+}
+.card img {
+  width: 100%;
+  border-radius: 20px 20px 0 0 ;
+}
+.card h3 {
+  margin-bottom: 10px;
+  font-style: italic;
+  font-size: 24px;
+}
+.card p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.card button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #0e75c9;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.card span {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+  text-decoration: line-through;
+}
+.card .price {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card .sale {
+  text-decoration: none;
+  color: #ff0000;
+}
